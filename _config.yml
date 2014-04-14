@@ -1,0 +1,65 @@
+title:            Kabir Sewani
+tagline:          Student / Entrepeneur / Tech Enthusiest  
+description:      "Personal website of Kabir Sewani."
+logo:             site-logo.png
+disqus_shortname: kabirsewani
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+#url:              http://kabirsewani.com
+url:             http://localhost:4000
+
+# Owner/author information
+owner:
+  name:           Kabir Sewani
+  avatar:         biopic.jpg
+  bio:            "I’m an independent designer, entrepreneur and tech enthusiast usually in Ottawa, Ontario."
+  email:          kabir.sewani@gmail.com
+  twitter:        "beeriest"
+  instagram:      "cabbeer"
+  github:         "cabbeer"
+  facebook:       "kabir.sewani"
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    "http://plus.google.com/104680349722964917725"
+
+feed: http://feeds.feedburner.com/KabirSewaniArticles
+
+google_analytics: UA-44880705-1
+  # has not been updates (March11th)
+#google_verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
+#bing_verify:   D81F4C18A6CB3018F64D7C827D953DFD
+alexa_verify:  gLjx97N-ReHtoclFdxus6fRc0OI
+
+future:      true
+lsi:         false
+pygments:    false
+markdown:    kramdown
+# http://jekyllrb.com/docs/permalinks/
+permalink:   /:categories/:title/
+
+# Internal pages/posts to include in top navigation
+links:
+  - title: My Portfolio
+    description: Pretty things I made
+    url: /work/
+  - title: My Blog
+    description: Cool stories I wrote
+    url: /articles/
+  - title: About Me
+    description: The man behind this site  
+    url: /about/
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+  
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "codekit-config.json", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json"]
